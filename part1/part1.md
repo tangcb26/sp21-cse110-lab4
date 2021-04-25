@@ -13,7 +13,7 @@ Part1b
 4. nothing. Due to no console.
 5. error. Because i is only defined withing the scope of the for loop, and console.log(i) has no access to it.
 6. error. Because discountedPrice is only defined withing the scope of the for loop, and console.log(discountedPrice) has no access to it.
-7. 150. "finalPrice" was declared at first, and finalPrice adn the log.console(finalPrice) are in the same scope, so the later one has access to it.
+7. 150 "finalPrice" was declared at first, and finalPrice adn the log.console(finalPrice) are in the same scope, so the later one has access to it.
 8. nothing. Due to no console.
 9. error showing i is not defined. That's because i is assigned using 'let' in the for loop scope, and the console.log(i) is outside of the scope.
 10. it will output 3. 'length' is the size of the input array, in this case the input array has 3 elements, so the output will be 3
