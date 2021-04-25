@@ -18,4 +18,17 @@ Part1b
 9. error showing i is not defined. That's because i is assigned using 'let' in the for loop scope, and the console.log(i) is outside of the scope.
 10. it will output 3. 'length' is the size of the input array, in this case the input array has 3 elements, so the output will be 3
 11. it will output 3. Because the discountedPrice was pushed and returned. 
-12. 
+12. A. const a = student.name;
+    B. const b = student['Grad Year'];
+    C. student.greeting.call();
+    D. const d = student['Favorite Teacher'].name;
+    E. const e = student.courseLoad[0];
+13. A.32
+    B.1
+    C.3
+    D.3null
+    E.4
+    F.0
+    G.3undefined
+    H.NaN
+14. 
