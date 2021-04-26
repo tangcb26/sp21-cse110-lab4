@@ -23,12 +23,24 @@ Part1b
     C. student.greeting.call();
     D. const d = student['Favorite Teacher'].name;
     E. const e = student.courseLoad[0];
-13. A.32
-    B.1
-    C.3
-    D.3null
-    E.4
-    F.0
-    G.3undefined
-    H.NaN
-14. 
+13. A.32. integers map to their exact string representation<br/>
+    B.1. 3 maps to an integer and do 3-2<br/>
+    C.3. null represents the intentional absence of any object value, it represents an absent integer here <br/>
+    D.3null. null represents the intentional absence of any object value, it represents a string here<br/>
+    E.4. true maps to 1<br/>
+    F.0. false maps to 0 and so does null here<br/>
+    G.3undefined. undefined maps to a string called 'undefined'<br/>
+    H.NaN. undefined gets converted to NaN<br/>
+14. A.true. string '2' becomes a number 2<br/>
+    B.false. '12' > '2' in string and in integer<br/>
+    C.true. string '2' becomes a number 2<br/>
+    D.false. strict equality, in which value are not cconverted to some other value before comparison, and these 2 vaariable values are of different types, they are considered as uneual<br/>
+    E.false. true gets converted to integer whose result is 1. 1 != 2<br/>
+    F.true. Boolean(2) is true, and the two sides of comparison is strictly equal<br/>
+15. The ‘==’ operator tests for abstract equality i.e. it does the necessary type conversions before doing the equality comparison.<br/>
+But the ‘===’ operator tests for strict equality i.e it will not do the type conversion hence if the two values are not of the same type, when compared, it will return false.<br/>
+
+17. each input integer in the array will be doubled, and pushed into newArr, which is [2, 4, 6]. starting at the function modiftArray, there are two parameters, first will be an array and the second will be another function. In the for loop, the array was iterated, and every iterate will be operated by the input function *doSomething*, in which each integer gets doubled. After that, each result is pushed into the newArr. For the result, it will be [2, 4, 6]<br/>
+
+19. 1 4 3 2. 1 4 3 will be printed out at the same time, and 2 will come out after 1 second.
+    
