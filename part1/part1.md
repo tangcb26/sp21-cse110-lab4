@@ -1,4 +1,4 @@
-Part1a
+##Part1a
 1. 20
 2. 20
 3. 20
@@ -6,7 +6,7 @@ Part1a
 5. Can't reassign the constant
 6. Can't reassign the constant
    
-Part1b
+##Part1b
 1. it will output 3, i is a iterator, and is used to compared with the length of the array
 2. it will output 150. The for loop will iterate 3 times, and the third element in the input array is 300, which will assign discountedPrice to 300*(1-0.5) = 150
 3. it will output 150. The finalPrice is used to round the discountedPrice, and rounding 150 will get 150
